@@ -2,7 +2,7 @@ name: Update Parking Status
 
 on:
   schedule:
-    - cron: "0 0,3,6,9 * * *"
+    - cron: "0 16,3,6,9 * * *"
   workflow_dispatch:
 
 permissions:
